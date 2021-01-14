@@ -1,0 +1,14 @@
+class FirstAndLast{
+public static void main(String args[]){
+int a=2345;
+last=a%10;
+a=a/10;
+while(true){
+if((a>0) &&(a<10)){
+System.out.prinln(a);
+break;
+}
+}
+System.out.prinln(last);
+}
+}
